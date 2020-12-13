@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BD3544AE-D3AC-4414-86C3-568E8E9B2222}</ProjectGuid>
+    <ProjectGuid>{22759E1F-8398-4C3B-B94F-B23822CD0199}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>CouponWithoutOCP</RootNamespace>
-    <AssemblyName>CouponWithoutOCP</AssemblyName>
+    <RootNamespace>CouponWithOCP</RootNamespace>
+    <AssemblyName>CouponWithOCP</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,6 +43,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Coupon.cs" />
+    <Compile Include="CouponWithCashback.cs" />
+    <Compile Include="CouponWithMaxNominal.cs" />
+    <Compile Include="CouponWithNominal.cs" />
+    <Compile Include="CouponWithPercentage.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
